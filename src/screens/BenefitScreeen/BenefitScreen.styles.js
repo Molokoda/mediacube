@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
 
-export default getStyles = (theme) => StyleSheet.create({
+const getStyles = (theme) => StyleSheet.create({
     container: {
         flex: 1,
         justifyContent: 'center',
@@ -26,3 +26,5 @@ export default getStyles = (theme) => StyleSheet.create({
         color: theme.discountText
     },
 });
+
+export default getStyles
