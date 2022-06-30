@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
 
-export default getStyles = (theme) => StyleSheet.create({
+const getStyles = (theme) => StyleSheet.create({
     container: {
         paddingRight: 20
     },
@@ -27,3 +27,5 @@ export default getStyles = (theme) => StyleSheet.create({
         borderRadius: 20
     },
 })  
+
+export default getStyles

@@ -1,3 +1,4 @@
+import React from 'react'
 import { NavigationContainer } from '@react-navigation/native';
 import MainNavigator from './src/navigators/MainNavigator';
 import { defaultTheme } from './src/constants/themes'; 

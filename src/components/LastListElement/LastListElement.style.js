@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
 
-export default getStyles = (theme) => StyleSheet.create({
+const getStyles = (theme) => StyleSheet.create({
     container: {
         width: 200,
         height:100,
@@ -16,3 +16,5 @@ export default getStyles = (theme) => StyleSheet.create({
         color: theme.border
     },
 });
+
+export default getStyles

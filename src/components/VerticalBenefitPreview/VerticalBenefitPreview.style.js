@@ -2,7 +2,7 @@ import { StyleSheet, Dimensions } from "react-native";
 
 const width  = Dimensions.get('screen').width
 
-export default getStyles = (theme) => StyleSheet.create({
+const getStyles = (theme) => StyleSheet.create({
     container: {
         width: "100%",
         marginBottom: 20,
@@ -35,3 +35,5 @@ export default getStyles = (theme) => StyleSheet.create({
         color: theme.text,
     }
 })
+
+export default getStyles
